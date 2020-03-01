@@ -7,7 +7,7 @@ const token = "NjcyMTk5OTUwMTEyOTE1NDU3.Xlwn9g.E91ITFJwRWxe4-JZKou2oERf36c";
 const prefix = "!";
 
 bot.on("ready", () => {
-  console.log("Bot Running Smooth ASF!");
+  console.log("Bot Running Smooth!");
 });
 
 bot.on("message", async msg => {
