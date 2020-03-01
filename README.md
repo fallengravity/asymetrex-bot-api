@@ -1,5 +1,4 @@
 # asymetrex-bot-api
-This small discordJS bot shows you how the asymetrex exchange api can be used.
 
 Our API is very easy and straightforward to use. Asymetrex makes use of both private and public methods. The public methods consist of GET POST requests, while private are composed of POST. All of the requests are made through.
 URL - https://asymetrex.com/api
