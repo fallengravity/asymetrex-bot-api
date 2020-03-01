@@ -84,3 +84,9 @@ Returns a list of all the graph data for a given market.
 
 
 URL - https://asymetrex.com/api/k?market=MARKET&limit=LIMIT&period=PERIOD
+
+HOW TO RUN THE BOT:
+npm install
+change discord key on line 5
+edit prefix to your likings on line 7
+run bot with: node index.js
