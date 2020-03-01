@@ -1,0 +1,14 @@
+{
+  "name": "dylies-nodejs-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "0.19.2",
+    "discord.js": "11.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
