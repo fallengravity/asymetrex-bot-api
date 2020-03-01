@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const axios = require("axios");
 const bot = new Discord.Client();
 
-const token = "NjcyMTk5OTUwMTEyOTE1NDU3.Xlwn9g.E91ITFJwRWxe4-JZKou2oERf36c";
+const token = "TOKEN HERE";
 
 const prefix = "!";
 
