@@ -111,10 +111,17 @@ bot.on("message", async msg => {
       let volume = response.data;
       return volume;
     };
+    let getUSD = async () => {
+      let response = await axios.get("https://asymetrex.com/api/");
+      let usd = response.data;
+      return usd;
+    };
     let volumeValue = await getVolume();
+    let usdValue = await getUSD();
     console.log(volumeValue);
     msg.reply(
       `Current AsymetrEX volume is: \n\n ${volumeValue.total_volume} BTC`
+      `Current AsymetrEX volume is: \n\n ${volumeValue.total_volume} * ${getUSD.ether-1.usd} USD
     );
   }
 });
